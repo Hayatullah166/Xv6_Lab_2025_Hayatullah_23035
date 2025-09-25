@@ -183,6 +183,7 @@ UPROGS=\
 	$U/_find\
 	$U/_findexec\
 	$U/_sixfive\
+	$U/_uptime\
 	$U/_grep\
 	$U/_init\
 	$U/_kill\
@@ -200,8 +201,7 @@ UPROGS=\
 	$U/_logstress\
 	$U/_forphan\
 	$U/_dorphan\
-
-
+	$U/_mysh\
 
 
 ifeq ($(LAB),syscall)
